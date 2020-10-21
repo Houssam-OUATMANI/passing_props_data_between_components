@@ -5,7 +5,6 @@ export default function UsersList(props) {
   if (props.users.length === 0) {
     return (
       <h1 style={{ textAlign: "center", color: "tomato", fontSize: "3rem" }}>
-        {" "}
         No Users Found
       </h1>
     );
