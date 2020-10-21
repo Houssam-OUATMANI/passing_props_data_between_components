@@ -12,7 +12,7 @@ export default function UsersList(props) {
   return (
     <Fragment>
       <h5>
-        Nombre d'utilisateurs dans la base de données est de :{" "}
+        Nombre d'utilisateurs dans la base de données est de: 
         <strong>{props.users.length} </strong>
         {props.users.length === 1 ? "utilisateur" : "utilisateurs"}
       </h5>
